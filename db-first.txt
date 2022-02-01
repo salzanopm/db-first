@@ -1,0 +1,26 @@
+Consegna:
+Modellizzare la struttura di una tabella per memorizzare 
+tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+cars
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE,INDEX) - AUTO_INCREMENT
+internal_code - VARCHAR(25) - NOTNULL - UNIQUE - INDEX
+brand - VARCHAR(25) - NOTNULL
+model - VARCHAR(30) - NOTNULL
+gearing_type - VARCHAR(20) - NOTNULL
+fuel - VARCHAR(20) - NOTNULL 
+body_color - VARCHAR(20) - NOTNULL 
+paint_type - VARCHAR(20)
+upholstery - VARCHAR(20)
+year - YEAR - NOTNULL
+price - DECIMAL(8, 2) - NOTNULL
+rating - FLOAT(3,1)
+poster - VARCHAR(100) - DEFAULT(‘/img/src/default.png’)
+for_new_driver - TINYINT 
+km0 - TINYINT 
+mileage - DECIMAL(8, 2) - NOTNULL
+euro - VARCHAR(20) - NOTNULL
+seats - FLOAT(2, 0) - NOTNULL
+doors - FLOAT(2, 0) - NOTNULL
